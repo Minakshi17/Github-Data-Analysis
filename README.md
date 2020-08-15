@@ -1,16 +1,16 @@
 # Analysed Github 17th July Data
-**ETL pipeline
+ETL pipeline
 
-**Extracted data from GHarchive ------> Transformed the data in PySpark -------> Load the target data in AWS-S3 bucket for day-to-day pipeline
+Extracted data from GHarchive ------> Transformed the data in PySpark -------> Load the target data in AWS-S3 bucket for day-to-day pipeline
 
 Followed the following steps to get the analysis done:
 
-Extracting data files from GHarchive
-Processing the Data
-Understanding the data
-Analysing the data with a problem statement
-Data Visualisation
-Exported dataframe with relevant fields into S3 bucket(where business can create a trigger using AWS lambda) for day-to-day pipeline analysis
+## Extracting data files from GHarchive
+## Processing the Data
+## Understanding the data
+## Analysing the data with a problem statement
+## Data Visualisation
+## Exported dataframe with relevant fields into S3 bucket(where business can create a trigger using AWS lambda) for day-to-day pipeline analysis
 
 # Extracted data files from GHArchive
 
