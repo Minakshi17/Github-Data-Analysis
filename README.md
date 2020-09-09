@@ -11,7 +11,7 @@ Followed the following steps to get the analysis done:
 - Analysing the data with a problem statement
 - Data Visualisation
 - Exported dataframe with relevant fields into S3 bucket(where business can create a trigger using AWS lambda) for day-to-day pipeline analysis
-
+![](images/workflow.png)
 # Extracted data files from GHArchive
 
   - Used wget command to download the data for a day
@@ -30,7 +30,12 @@ Followed the following steps to get the analysis done:
 # Analysed Data
 - Formulated Question which can be helpful to get major insight from data
   1. What are the different type of events that took place in a day?
+  ![](images/TypeOfevent.png)
+   
   2. How many issues were raised per hour in a day?
+  ![](images/Number%20Of%20Issue%20raised.png)
+  
+
   3. How many issues were opened and closed per hour in a day?
-
-
+  
+  ![](images/open%20and%20Closed%20Issue.PNG)
